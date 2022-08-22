@@ -5,7 +5,7 @@ import {FaBars, FaTimes} from "react-icons/fa"
 
 export default function Navbar() {
 
-    const {click, setClick} = useState(false)
+    const [click, setClick] = useState(false)
     
     function handleClick() {
         setClick(!click)
@@ -19,7 +19,8 @@ export default function Navbar() {
                 <h1>Portfolio</h1>
             </Link>
 
-            <ul className="nav--menu">
+            <ul className={click ? "nav--menu active" : "nav--menu"}>
+
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -35,6 +36,7 @@ export default function Navbar() {
                 <li>
                     <Link to="/contact">Contact</Link>
                 </li>
+
             </ul>
 
             <div className="hamburger" onClick={handleClick}>
