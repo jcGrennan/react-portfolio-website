@@ -11,7 +11,7 @@ export default function Navbar() {
                 <h1>Portfolio</h1>
             </Link>
 
-            <ul>
+            <ul className="nav--menu">
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -30,6 +30,6 @@ export default function Navbar() {
             </ul>
 
         </div>
-        
+
     )
 }
