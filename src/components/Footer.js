@@ -52,7 +52,7 @@ export default function Footer() {
                 <div className="footer--right">
 
                     <h4>About Me</h4>
-                    <p>Joshua C. Grennan, React and JS Developer. Always looking to learn and be challenged. Thank you for your time.</p>
+                    <p>Joshua C. Grennan, React and JS Developer. Always looking to learn and grow. Ready for a challenge!</p>
 
                     <div className="footer--social">
                         <FaLinkedin 
