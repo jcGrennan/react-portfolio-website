@@ -6,13 +6,17 @@ import {FaBars, FaTimes} from "react-icons/fa"
 export default function Navbar() {
 
     const [click, setClick] = useState(false)
-    
-    function handleClick() {
-        setClick(!click)
+    function handleClick() {setClick(!click)}
+
+    const [color, setColor] = useState(false)
+    function changeColor() {
+        window.scrollY >= 100 ? setColor(true) : setColor(false)
     }
 
+    window.addEventListener("scroll", changeColor)
+
     return (
-        <div className="nav">
+        <div className={color ? "nav nav-bg" : "nav"}>
 
             <Link to="/">
                 <h1>Portfolio.</h1>
