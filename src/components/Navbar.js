@@ -29,7 +29,7 @@ export default function Navbar() {
                 </li>
 
                 <li>
-                    <Link to="/project">Project</Link>
+                    <Link to="/projects">Projects</Link>
                 </li>
 
                 <li>
