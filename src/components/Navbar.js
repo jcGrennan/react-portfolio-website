@@ -12,11 +12,10 @@ export default function Navbar() {
     }
 
     return (
-
         <div className="nav">
 
             <Link to="/">
-                <h1>Portfolio</h1>
+                <h1>Portfolio.</h1>
             </Link>
 
             <ul className={click ? "nav--menu active" : "nav--menu"}>
@@ -50,6 +49,5 @@ export default function Navbar() {
             </div>
 
         </div>
-
     )
 }
