@@ -17,6 +17,10 @@
     object-fit: cover;
 }
 
+.other {
+    opacity: 0.5;
+}
+
 .hero--mask::after {
     content: "";
     width: 100%;
