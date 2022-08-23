@@ -20,12 +20,12 @@ export default function Footer() {
                             size={20} 
                             style={{color:"#fff", marginRight:"2rem"}}
                         />
+                        <div>
+                            <p>Cork City</p>
+                            <p>Ireland</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <p>Cork City</p>
-                        <p>Ireland</p>
-                    </div>
 
                     <div className="footer--phone">
                         <h4>
@@ -51,10 +51,10 @@ export default function Footer() {
 
                 <div className="footer--right">
 
-                    <h4>About</h4>
-                    <p>Front-end developer with a natural aptitude for coding. I am excited by the prospect of committing to a position where I can combine my new skills with my proven abilities in management, communication and problem-solving.</p>
+                    <h4>About Me</h4>
+                    <p>Joshua C. Grennan, React and JS Developer. Always looking to learn and be challenged. Thank you for your time.</p>
 
-                    <div className="social">
+                    <div className="footer--social">
                         <FaLinkedin 
                             size={30} 
                             style={{color:"#fff", marginRight:"1rem"}}
@@ -63,7 +63,7 @@ export default function Footer() {
                             size={30}
                             style={{color:"#fff", marginRight:"1rem"}}
                         />
-                        
+
                     </div>
 
                 </div>
