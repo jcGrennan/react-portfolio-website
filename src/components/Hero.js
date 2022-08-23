@@ -6,7 +6,11 @@ export default function Hero(props) {
             <div className="hero">
 
             <div className="hero--mask">
-                <img className="hero--img" src={props.img} alt="low lit desk and computer"/>
+                <img 
+                    className={props.home ? "hero--img" : "hero--img other"}
+                    src={props.img} 
+                    alt="low lit desk and computer"
+                />
             </div>
 
             <div className="content">
