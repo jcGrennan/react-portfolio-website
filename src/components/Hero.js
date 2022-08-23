@@ -3,10 +3,10 @@ import {Link} from "react-router-dom"
 
 export default function Hero(props) {
     return (
-        <div className="hero">
+            <div className="hero">
 
             <div className="hero--mask">
-                <img className="intro-img" src={props.img} alt="low lit desk and computer"/>
+                <img className="hero--img" src={props.img} alt="low lit desk and computer"/>
             </div>
 
             <div className="content">
@@ -18,7 +18,7 @@ export default function Hero(props) {
                     <Link to="/projects" className="btn">
                         Projects
                     </Link>
-                    <Link to="/contact" className=" btn btn-light">
+                    <Link to="/contact" className="btn btn-light">
                         Contact
                     </Link>
                 </div>}
