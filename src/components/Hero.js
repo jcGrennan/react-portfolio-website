@@ -1,19 +1,22 @@
 import "./Hero.css"
 import {Link} from "react-router-dom"
+import HomeImg from "../assets/home-img.jpg"
+
 
 export default function Hero(props) {
     return (
-            <div className="hero">
+        
+        <div className={props.home ? "hero" : "hero-other"}>
 
-            <div className="hero--mask">
+            {props.home && <div className="hero--mask">
                 <img 
-                    className={props.home ? "hero--img" : "hero--img other"}
-                    src={props.img} 
+                    className="hero--img"
+                    src={HomeImg}
                     alt="low lit desk and computer"
                 />
-            </div>
+            </div>}
 
-            <div className="content">
+            <div className={props.home ? "content" : "content-other"}>
 
                 {props.home ? <p>WELCOME TO MY PORTFOLIO</p> : <h1>{props.heading}</h1>}
                 {props.home ? <h1>React & JS Developer.</h1> : <p>{props.text}</p>}
