@@ -1,5 +1,3 @@
-import {NavLink} from "react-router-dom"
-
 export default function ProjectCard(props) {
     return (
 
@@ -15,9 +13,23 @@ export default function ProjectCard(props) {
 
                 <div className="project-btns">
 
-                    <NavLink to={props.viewUrl} className ="btn">View</NavLink>
+                    <a 
+                        href={props.viewUrl} 
+                        target="_blank" 
+                        rel="noreferrer"
+                        className ="btn"
+                    >
+                        View
+                    </a>
                        
-                    <NavLink to={props.sourceUrl} className ="btn">Source</NavLink>
+                    <a 
+                        href={props.sourceUrl} 
+                        target="_blank"
+                        rel="noreferrer"
+                        className ="btn"
+                    >
+                        Source
+                    </a>
 
                 </div>
 
