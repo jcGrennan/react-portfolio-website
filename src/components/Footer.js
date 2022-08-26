@@ -1,4 +1,5 @@
 import "./Footer.css"
+import {Link} from "react-router-dom"
 import {
     FaHome, 
     FaPhone, 
@@ -43,7 +44,7 @@ export default function Footer() {
                                 size={20} 
                                 style={{color:"#fff", marginRight:"2rem"}} 
                             />
-                            jgrennan94@gmail.com
+                            <Link to="/contact">jgrennan94@gmail.com</Link>
                         </h4>
                     </div>
 
