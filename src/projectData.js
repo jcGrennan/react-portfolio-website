@@ -21,7 +21,7 @@ const data = [
         img: project2,
         title: "Tenzies Game",
         details: "A dice match game showing the use of State, props, reusable components, and javaScript algorithms.",
-        viewUrl: "url.com",
+        viewUrl: "https://tenziesbygrennan.netlify.app/",
         sourceUrl: "https://github.com/jcGrennan/tenzies-game",
     },
 
@@ -30,7 +30,7 @@ const data = [
         img: project3,
         title: "Meme-Generator",
         details: "A meme-generator that fetchs popular meme images from an api and allows the use to create the text in roulette style fun.",
-        viewUrl: "url.com",
+        viewUrl: "https://memeroulette.netlify.app/",
         sourceUrl: "https://github.com/jcGrennan/meme-generator",
     },
 
@@ -39,7 +39,7 @@ const data = [
         img: project4,
         title: "My Travel Journal",
         details: "A small one page travel journal showcasing the use of reusable components with props, and my ability to follow design files while scaling between mobile and wide screen devices.",
-        viewUrl: "url.com",
+        viewUrl: "https://jcgrennantraveljournal.netlify.app/",
         sourceUrl: "https://github.com/jcGrennan/my-travel-journal",
     },
 
@@ -48,7 +48,7 @@ const data = [
         img: project5,
         title: "Air-Bnb Clone",
         details: "A small one page air-bnb experience app showcasing the use of reusable components with props, and my ability to follow design files while scaling between mobile and wide screen devices.",
-        viewUrl: "url.com",
+        viewUrl: "https://jcgrennanairbnbclone.netlify.app/",
         sourceUrl: "https://github.com/jcGrennan/air-bnb-clone",
     },
 
@@ -57,7 +57,7 @@ const data = [
         img: project6,
         title: "Digital Business Card",
         details: "A digital business card showcasing some basic jsx composition, and my ability to follow design files while scaling between mobile and wide screen devices.",
-        viewUrl: "url.com",
+        viewUrl: "https://jcgrennanbusinesscard.netlify.app/",
         sourceUrl: "https://github.com/jcGrennan/digital-business-card",
     },
     
