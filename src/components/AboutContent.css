@@ -29,17 +29,18 @@
     position: relative;
     align-items: center;
     text-align: center;
+    padding-right: 2rem;
 }
 
 .img {
-    max-width: 90%;
+    max-width: 80%;
     border-radius: 2.5%;
 }
 
 .img-top {
     grid-column: 1 / span 8;
     grid-row: 1;
-    padding-top: 20%;
+    padding-top: 15%;
     z-index: 6;
 }
 
