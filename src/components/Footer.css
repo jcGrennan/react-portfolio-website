@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    padding: 6rem 0;
+    padding: 6rem 0 3rem 0;
     background-color: rgba(19, 19, 19, 0.8);
 }
 
@@ -39,6 +39,8 @@
 
 .footer--social {
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 h4 {
@@ -48,6 +50,13 @@ h4 {
 
 p {
     font-size: 1.2rem;
+}
+
+.portfolio-source {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    margin-top: 1px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 640px) {

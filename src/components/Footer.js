@@ -78,11 +78,22 @@ export default function Footer() {
                             />
                         </a>
 
+                        <a  
+                            className="btn portfolio-source"
+                            href="https://github.com/jcGrennan/react-portfolio-website"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            portfolio source
+                        </a>
+            
+
                     </div>
 
                 </div>
 
             </div>
+
 
         </div>
     )
