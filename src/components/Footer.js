@@ -31,7 +31,7 @@ export default function Footer() {
                         <h4>
                             <FaPhone 
                                 size={20} 
-                                style={{color:"#fff",                  marginRight:"2rem"}} 
+                                style={{color:"#fff", marginRight:"2rem"}} 
                             />
                             +353-87-711-4012
                         </h4>
@@ -55,14 +55,27 @@ export default function Footer() {
                     <p>Joshua C. Grennan, React and JS Developer. Always looking to learn and grow. Ready for a challenge!</p>
 
                     <div className="footer--social">
-                        <FaLinkedin 
-                            size={30} 
-                            style={{color:"#fff", marginRight:"1rem"}}
-                        />
-                        <FaGithubSquare
-                            size={30}
-                            style={{color:"#fff", marginRight:"1rem"}}
-                        />
+
+                        <a 
+                            href="https://www.linkedin.com/in/jc-grennan" 
+                            target="_blank" 
+                            rel="noreferrer"
+                        >
+                            <FaLinkedin 
+                                size={30} 
+                                style={{color:"#fff", marginRight:"1rem"}}
+                            />  
+                        </a>
+
+                        <a 
+                            href="https://github.com/jcGrennan" target="_blank" 
+                            rel="noreferrer"
+                        >
+                            <FaGithubSquare
+                                size={30}
+                                style={{color:"#fff", marginRight:"1rem"}}
+                            />
+                        </a>
 
                     </div>
 
