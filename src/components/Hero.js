@@ -18,7 +18,7 @@ export default function Hero(props) {
 
             <div className={props.home ? "content" : "content-other"}>
 
-                {props.home ? <p>WELCOME TO MY PORTFOLIO</p> : <h1>{props.heading}</h1>}
+                {props.home ? <p>J.C. GRENNAN</p> : <h1>{props.heading}</h1>}
                 {props.home ? <h1>React & JS Developer.</h1> : <p>{props.text}</p>}
                 
                 {props.home && <div>
