@@ -60,14 +60,14 @@
 
 .hero-other {
     width: 100%;
-    background: rgba(0,0,0, 0.5);
+    background: rgba(0,0,0, 0.75);
     height: 60vh;
     position: relative;
 }
 
 .hero-other::before {
     content: "";
-    background: url("https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+    background: url("https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
     background-size: cover;
     background-position: center top;
     height: 100%;
