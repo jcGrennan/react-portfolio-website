@@ -10,10 +10,12 @@
 .project-card {
     background: #1a1919;
     padding: 1.2rem 1rem;
+    border-radius: 1%;
 }
 
 .project-card > img {
     width: 100%;
+    border-radius: 1%;
 }
 
 .project-title {
