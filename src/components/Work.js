@@ -17,6 +17,8 @@ export default function Work() {
         )
     })
 
+
+    // composing the JSX
     return (
 
         <div className="project-container">
