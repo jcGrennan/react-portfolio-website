@@ -1,3 +1,6 @@
+/* composing and exporting the ProjectCard component 
+ with props to take in the projectData in the Work Component */
+
 export default function ProjectCard(props) {
     return (
 
