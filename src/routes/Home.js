@@ -1,3 +1,5 @@
+// importing and rendering components. This will serve as the homepage.
+
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import Work from "../components/Work"
@@ -7,7 +9,7 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-            <Hero home={true}/>
+            <Hero home={true}/> {/*passing a prop for conditionally rendering the correct Hero component*/}
             <Work />
             <Footer />
         </div>

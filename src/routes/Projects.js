@@ -1,3 +1,5 @@
+// importing and rendering components and passing simple text props to the Hero component
+
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import Work from "../components/Work"

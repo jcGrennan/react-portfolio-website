@@ -1,3 +1,4 @@
+// importing css, Link to route between pages, and some social icons from a dependency
 import "./Footer.css"
 import {Link} from "react-router-dom"
 import {
@@ -8,6 +9,8 @@ import {
     FaGithubSquare
 } from "react-icons/fa"
 
+
+// composing and exporting the Footer component. Will be used on all pages.
 export default function Footer() {
     return (
         <div className="footer">

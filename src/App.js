@@ -1,3 +1,5 @@
+// importing the components and rendering them using react-router-dom as there is multiple pages
+
 import "./index.css"
 import Home from "./routes/Home"
 import Projects from "./routes/Projects"

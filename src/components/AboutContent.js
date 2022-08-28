@@ -1,8 +1,11 @@
+// importing css, Link to route to other pages, and some decorative images
 import "./AboutContent.css"
 import {Link} from "react-router-dom"
 import reactImg from "../assets/react.jpg"
 import profile from "../assets/profile.jpeg"
 
+
+// composing and exporting the AboutContent component. The content for the About page.
 export default function AboutContent() {
     return (
         <div className="about">

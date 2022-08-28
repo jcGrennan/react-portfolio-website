@@ -1,3 +1,5 @@
+// importing and rendering the App using reactDOM and react-router-dom to handle the routes between pages
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
