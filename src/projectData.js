@@ -29,7 +29,7 @@ const data = [
 
     {
         id: 3,
-        img: project3,
+        img: project2,
         title: "Tenzies Game",
         details: "A dice match game showing the use of React Hooks (State and Effect) props, reusable components, and javaScript algorithms.",
         viewUrl: "https://tenziesbygrennan.netlify.app/",
@@ -38,7 +38,7 @@ const data = [
 
     {
         id: 4,
-        img: project4,
+        img: project3,
         title: "Meme-Generator",
         details: "A meme-generator that fetchs popular meme images from an api and allows the user to write the text in roulette style fun.",
         viewUrl: "https://memeroulette.netlify.app/",
@@ -47,7 +47,7 @@ const data = [
 
     {
         id: 5,
-        img: project5,
+        img: project4,
         title: "My Travel Journal",
         details: "A small one page travel journal showcasing the use of reusable components with props, and my ability to follow design files while scaling between mobile and wide screen devices.",
         viewUrl: "https://jcgrennantraveljournal.netlify.app/",
@@ -56,7 +56,7 @@ const data = [
 
     {
         id: 6,
-        img: project6,
+        img: project5,
         title: "Air-Bnb Clone",
         details: "A small one page air-bnb experience app showcasing the use of reusable components with props, and my ability to follow design files while scaling between mobile and wide screen devices.",
         viewUrl: "https://jcgrennanairbnbclone.netlify.app/",
