@@ -13,7 +13,7 @@ const data = [
         id: 1,
         img: project1,
         title: "Questionable - the Quiz",
-        details: "A multiple-choice quiz with category and difficulty options showcasing the use of React Hooks such as State, Effect, and Callback, and the use of props and reusable components.",
+        details: "A multiple-choice quiz with category and difficulty options showcasing the use of React Hooks (such as State, Effect, and Callback), and the use of props and reusable components.",
         viewUrl: "https://questionablequiz.netlify.app/",
         sourceUrl: "https://github.com/jcGrennan/questionable-quiz",
     },
@@ -21,15 +21,15 @@ const data = [
     {
         id: 2,
         img: project2,
-        title: "Pic-Some - Mock E-Commerce Site",
-        details: "A mock image e-commerce site showing use of React Router, Context, React Hooks, Custom Hooks, reusability and more. Styled for mobile.",
+        title: "Pic-Some E-Commerce Site",
+        details: "A mock image e-commerce site showing use of React Router, Context, React Hooks (such as State, Effect, and Ref), Custom Hooks, reusability and more. Styled for mobile.",
         viewUrl: "https://mockecommerce-picsome.netlify.app/",
         sourceUrl: "https://github.com/jcGrennan/pic-some",
     },
 
     {
         id: 3,
-        img: project2,
+        img: project3,
         title: "Tenzies Game",
         details: "A dice match game showing the use of React Hooks (State and Effect) props, reusable components, and javaScript algorithms.",
         viewUrl: "https://tenziesbygrennan.netlify.app/",
@@ -38,7 +38,7 @@ const data = [
 
     {
         id: 4,
-        img: project3,
+        img: project4,
         title: "Meme-Generator",
         details: "A meme-generator that fetchs popular meme images from an api and allows the user to write the text in roulette style fun.",
         viewUrl: "https://memeroulette.netlify.app/",
@@ -47,7 +47,7 @@ const data = [
 
     {
         id: 5,
-        img: project4,
+        img: project5,
         title: "My Travel Journal",
         details: "A small one page travel journal showcasing the use of reusable components with props, and my ability to follow design files while scaling between mobile and wide screen devices.",
         viewUrl: "https://jcgrennantraveljournal.netlify.app/",
@@ -56,7 +56,7 @@ const data = [
 
     {
         id: 6,
-        img: project5,
+        img: project6,
         title: "Air-Bnb Clone",
         details: "A small one page air-bnb experience app showcasing the use of reusable components with props, and my ability to follow design files while scaling between mobile and wide screen devices.",
         viewUrl: "https://jcgrennanairbnbclone.netlify.app/",
